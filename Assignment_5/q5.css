@@ -1,0 +1,72 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  
+  .gradient-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b); 
+    transition: transform 0.3s ease;
+  }
+  
+  .gradient-button:hover {
+    transform: scale(1.1); 
+  }
+  
+  
+  .hover-border-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #333;
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: border-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .hover-border-button:hover {
+    border-color: #007bff; 
+    color: #007bff; 
+  }
+  
+  
+  .glowing-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745; 
+    cursor: pointer;
+    box-shadow: 0 0 10px #28a745; 
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .glowing-button:hover {
+    box-shadow: 0 0 20px #28a745, 0 0 30px #28a745;
+    transform: scale(1.1);
+  }
+  
