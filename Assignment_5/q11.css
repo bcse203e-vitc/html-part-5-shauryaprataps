@@ -1,0 +1,13 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    padding: 10%;
+    margin: 10%;
+    border: 2px solid black;
+    border-width: 2px;
+}
+div:hover{
+    border-color: blue;
+    border-width: 4px;
+}
