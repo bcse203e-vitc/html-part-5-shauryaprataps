@@ -1,0 +1,28 @@
+.pricing-table {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .plan {
+    background-color: #f0f0f0;
+    padding: 30px;
+    border-radius: 5px;
+  }
+  
+  .plan.popular {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .plan button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .plan button:hover {
+    background-color: #3e8e41;
+  }
